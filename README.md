@@ -23,7 +23,7 @@ Ensure you have the following installed:
 2. Enter a question when prompted.
 3. The agent determines whether it can answer directly or needs additional information from Wikipedia.
 4. If required, the agent fetches relevant data from Wikipedia and formulates a response.
-5. Type **'exit'** to terminate the program.
+5. Type 'exit' to terminate the program.
 
 ## Expected Behavior
 
@@ -36,7 +36,7 @@ Ensure you have the following installed:
 ### Common Issues and Fixes
 - Ensure all dependencies are installed correctly.
 - If Wikipedia queries fail, check your internet connection.
-- If API errors occur, try **reducing `top_k_results`** in `WikipediaAPIWrapper`.
+- If API errors occur, try reducing `top_k_results` in `WikipediaAPIWrapper`.
 
 ## Future Enhancements
 
@@ -46,6 +46,6 @@ Ensure you have the following installed:
 - Improve error handling for API requests.
 
 ## Conclusion
-This project demonstrates an intelligent conversational agent that leverages **LangChain**, a **local LLM**, and the **Wikipedia API** for enhanced question-answering capabilities.
+This project demonstrates an intelligent conversational agent that leverages LangChain, a local LLM, and the Wikipedia API for enhanced question-answering capabilities.
 
 This project demonstrates an intelligent conversational agent that leverages LangChain, a local LLM, and the Wikipedia API for enhanced question-answering capabilities.
