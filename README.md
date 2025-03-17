@@ -11,7 +11,41 @@ Ensure you have the following installed:
 
 ## Installation
 
-1. **Clone the repository:**
+ **Clone the repository:**
    ```bash
    git clone <repository_url>
    cd <repository_folder>
+
+## Usage
+
+### Steps to Use
+1. Run the script.
+2. Enter a question when prompted.
+3. The agent determines whether it can answer directly or needs additional information from Wikipedia.
+4. If required, the agent fetches relevant data from Wikipedia and formulates a response.
+5. Type **'exit'** to terminate the program.
+
+## Expected Behavior
+
+### How the Agent Responds
+- If the agent has sufficient knowledge, it responds directly.
+- If additional factual support is required, it retrieves and integrates data from Wikipedia before responding.
+
+## Troubleshooting
+
+### Common Issues and Fixes
+- Ensure all dependencies are installed correctly.
+- If Wikipedia queries fail, check your internet connection.
+- If API errors occur, try **reducing `top_k_results`** in `WikipediaAPIWrapper`.
+
+## Future Enhancements
+
+### Potential Improvements
+- Implement confidence thresholds to optimize Wikipedia usage.
+- Integrate additional knowledge sources for broader coverage.
+- Improve error handling for API requests.
+
+## Conclusion
+This project demonstrates an intelligent conversational agent that leverages **LangChain**, a **local LLM**, and the **Wikipedia API** for enhanced question-answering capabilities.
+
+This project demonstrates an intelligent conversational agent that leverages LangChain, a local LLM, and the Wikipedia API for enhanced question-answering capabilities.
