@@ -15,7 +15,7 @@ Ensure you have the following installed:
 ```bash
 git clone <repository_url>
 cd <repository_folder>
-
+```
 Usage
 
 Steps to Use
