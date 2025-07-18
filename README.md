@@ -253,13 +253,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Wolfram Alpha**: For computational intelligence
 - **DuckDuckGo**: For privacy-focused search capabilities
 
-## 📞 Support
-
-For questions, issues, or contributions:
-- **GitHub Issues**: Report bugs and request features
-- **Discussions**: Community support and ideas
-- **Email**: [your-email@example.com]
-
 ---
 
 **Version**: 2.0.0  
