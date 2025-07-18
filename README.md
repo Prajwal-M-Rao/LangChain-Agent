@@ -1,5 +1,5 @@
 
-#LangChain Wikipedia Agent
+# LangChain Wikipedia Agent
 
 This project implements an advanced interactive question-answering agent using **LangChain**, a local **LLM (TinyLlama-1.1B-Chat-v1.0)**, and multiple knowledge sources including **Wikipedia**, **DuckDuckGo**, and **Wolfram Alpha**. The agent follows the **ReAct (Reasoning + Acting) framework** with enhanced decision-making capabilities, confidence scoring, and intelligent source selection.
 
